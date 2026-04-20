@@ -1,13 +1,13 @@
 ---
 name: release-check
-description: Single release validation skill (lint, build, semantic-release dry-run).
+description: Single release validation skill (lint, test/build, cloud semantic-release run).
 argument-hint: "Run release checks before publishing"
 user-invokable: true
 ---
 
 # Release Check
 
-Run one pre-release flow that replaces builder checks.
+Run one pre-release flow that validates app quality locally and release behavior in pipeline.
 
 ## Commands (repo root)
 1. Install clean dependencies:
@@ -18,14 +18,12 @@ Run one pre-release flow that replaces builder checks.
    `npm test --if-present`
 4. Build production bundle:
    `npm run build`
-5. Run semantic-release dry run (local):
-   `npm run release:check`
-
-Optional: test a specific branch name explicitly:
-`npm run release:check -- <branch-name>`
+5. Validate semantic-release in cloud (manual run):
+   Queue `pipelines/Semantic_Release.yml` in the pipeline of your selection
 
 ## Pass criteria
-- All commands exit with code `0`.
+- Local commands exit with code `0`.
+- Pipeline step `Run Semantic Release` succeeds.
 
 ## If it fails
 - Report which command failed and include the error output.
@@ -39,7 +37,7 @@ After running all checks, respond with a checklist using ✅ for pass and ❌ fo
 ✅ Type/lint check
 ✅ Tests
 ✅ Build production bundle
-✅ Release dry-run → next version: `<version>`
+✅ Cloud semantic-release pipeline run
 
 **On failure, stop the list at the failed step and show only the relevant error:**
 ✅ Install clean dependencies
