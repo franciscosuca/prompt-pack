@@ -95,3 +95,22 @@ Return a prioritized bug list with:
 - Proposed patch direction
 - Risk of regression
 ```
+
+### Persistent Session Requirement
+
+When diagnosing a page, keep all MCP actions in one continuous session. Do not restart the inspector between steps.
+
+Why this matters:
+
+* Preserves console and network context from the same reload event
+* Keeps request IDs valid so `get_network_request` can resolve failed calls reliably
+* Avoids false negatives caused by losing preserved messages/requests after reconnecting
+
+Use this instruction in your prompt:
+
+```text
+Run all MCP steps in one persistent session (do not restart inspector between steps):
+select_page -> reload -> list_console_messages -> list_network_requests -> get_network_request for failed request IDs.
+
+If the MCP session resets, restart the flow from select_page and report that the previous context was discarded.
+```
