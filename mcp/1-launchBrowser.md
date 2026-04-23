@@ -1,8 +1,6 @@
-# Chome DevTools MCP Server
+# Launch Remote Browser
 
 To turn that script into something you can actually execute, you have two main options: the **Terminal way** (standard for devs) or the **Double-Click way** (best for your workflow).
-
----
 
 ## Option 1: The "Double-Click" Method (Recommended)
 
@@ -16,8 +14,6 @@ If you want to just click an icon and have Edge launch with debugging enabled, r
 5. Press **Enter**.
 
 Now, you can **double-click** that file in Finder whenever you want to start your debugging session. It will open a terminal window, run the command, and launch Edge.
-
----
 
 ## Option 2: Running via Terminal
 
@@ -47,7 +43,7 @@ If you double-click the `.command` file and macOS complains about an "unidentifi
 2. Scroll down to the bottom and click **"Open Anyway"** for the script.
 3. You might also need to grant Terminal "Full Disk Access" if the script is trying to write to a protected `/tmp/` folder.
 
-**Tips for your Setup**
+## Tips for your Setup
 
 - Why the separate user-dir? By using --user-data-dir="/tmp/chrome-debug", you are opening a "clean" instance of Chrome. If you try to run the command while your normal Chrome is already open without this flag, macOS will just open a new window in your existing session, which usually ignores the debugging port request.
 - Verify it’s working: Once the browser opens, go to <http://localhost:9222/json> in the address bar. If you see a list of tabs in JSON format, your VS Code Copilot is officially connected and ready to give you insights.
