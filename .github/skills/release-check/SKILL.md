@@ -1,8 +1,8 @@
 ---
 name: release-check
 description: Single release validation skill (lint, test/build, cloud semantic-release run).
-argument-hint: "Run release checks before publishing"
-user-invokable: true
+argument-hint: Run release checks before publishing.
+user-invocable: true
 ---
 
 # Release Check

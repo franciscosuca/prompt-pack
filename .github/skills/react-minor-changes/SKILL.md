@@ -1,7 +1,7 @@
 ---
 name: react-minor-changes
 description: Apply small React/TypeScript changes safely and return a concise, high-signal summary in a consistent style.
-argument-hint: "Implement minor React changes and validate with release-check"
+argument-hint: Implement minor React changes and validate with release-check
 user-invocable: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Playwright Test Sync"
+name: "playwright"
 description: "Use when adapting this project to Playwright, bootstrapping Playwright for the repo, adding or updating Playwright end-to-end tests after a new feature, after a bug fix, after a UI change, or when syncing regression coverage with recent code changes. Keywords: playwright, e2e, regression, end-to-end, test sync, update tests, add tests, after feature, after bug fix."
 tools: [read, search, edit, execute]
 user-invocable: true
@@ -40,3 +40,6 @@ Return a concise summary with:
 - scenarios covered or changed
 - commands run and whether they passed
 - any remaining blockers or recommended next test additions
+- If exactly 1 file changed, do not include a summary.
+- If more than 1 file changed, keep the final summary under 50 words.
+- If no files changed, state that in one short sentence.
