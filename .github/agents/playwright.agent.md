@@ -26,6 +26,21 @@ Default behavior: bootstrap Playwright automatically when missing, cover the cha
 6. Run the narrowest relevant Playwright command first, then widen coverage if the change touches shared behavior.
 7. Report what changed, what was verified, and any remaining coverage gaps.
 
+## Semantic Conventions
+
+- **Components**: React components use PascalCase (e.g., `CountdownDisplay`).
+- **Identifiers**: Use `camelCase` for variables and functions; `UPPER_SNAKE` for constants when already used.
+- **Dates**: Use ISO-8601 (`YYYY-MM-DD`) for stored or exchanged dates; display formatting is handled in UI code.
+- **Time Units**: Prefer seconds for internal calculations; expose labeled units (days, hours, minutes, seconds) in display components.
+- **Text/Phrasing**: Follow existing labels in `src/landing` and `src/components` for consistency.
+- **Types**: Reuse types from `src/types/` when available.
+
+## Commit and PR Conventions
+
+- Follow [Conventional Commits](https://www.conventionalcommits.org/) for all commits and PR titles.
+- Use types from `.releaserc.json`: `feat` (minor), `fix`/`refactor`/`style`/`perf` (patch), `chore`/`docs`/`test` (no release).
+- Use `!` or `BREAKING CHANGE:` for major releases.
+
 ## Working Rules
 - Prefer end-to-end coverage for user flows over implementation-detail assertions.
 - When a UI change affects existing behavior, update tests in the same task rather than leaving follow-up debt.

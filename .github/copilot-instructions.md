@@ -4,7 +4,9 @@ These instructions are project-agnostic and should apply to most repositories.
 
 ## Safety and Workflow
 
+- Never call task_complete automatically. Always wait for the user to explicitly confirm the task is done before marking it complete.
 - Never merge changes to `main` directly. Always commit to the current working branch.
+- In agent mode, do not create commits. Only edit files requested by the user.
 - Prefer small, reversible changes and validate with the narrowest relevant checks first.
 - Preserve existing conventions unless the user asks for a broader refactor.
 
@@ -35,6 +37,16 @@ These instructions are project-agnostic and should apply to most repositories.
 - For UI, styling, or layout tasks, look for a design specification before making visual changes.
 - Prefer `DESIGN.md` when present (commonly at project root, `.github/DESIGN.md`, or feature design folders).
 - If no design spec exists, preserve current visual language and avoid introducing a conflicting style.
+
+## Commit and PR Conventions
+
+- **Format**: All commits and PR titles must follow [Conventional Commits](https://www.conventionalcommits.org/).
+- **Types**: Use specific types defined in `.releaserc.json` to trigger the correct release:
+  - `feat`: Minor release (new features).
+  - `fix`, `perf`, `refactor`, `style`: Patch release (bug fixes, performance, code changes).
+  - `chore`, `docs`, `test`, `ci`, `build`: No release (maintenance and documentation).
+- **Breaking Changes**: Use `!` after the type (e.g., `feat!:`) and include `BREAKING CHANGE:` in the footer for major releases.
+- **PR Titles**: Ensure the PR title is also a valid conventional commit message, as it is often used for the final squashed commit.
 
 ## Response Style
 

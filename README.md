@@ -2,6 +2,8 @@
 
 A curated starter pack for GitHub Copilot customization in VS Code, including reusable agents, focused skills, and MCP setup assets. It is designed to help teams standardize workflows quickly: copy the templates, adapt the prompts, and run with minimal setup.
 
+<!-- TODO: how to make this importable? -->
+
 ## Agents
 
 - [FastAPI Code Review](.github/agents/fastapi.agent.md): reviews FastAPI code with emphasis on security, correctness, async behavior, and architecture.

@@ -1,5 +1,5 @@
 ---
-name: "react.agent"
+name: "react"
 description: "Use for React component architecture, state ownership decisions, feature decomposition, and scalable refactors. Keywords: React architecture, component hierarchy, state lifting, hooks, prop drilling, feature folder, refactor, reusable components."
 tools: [read, search, edit, execute, agent]
 user-invocable: true
