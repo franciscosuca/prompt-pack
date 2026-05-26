@@ -1,0 +1,49 @@
+
+# Git Submodules
+
+> For teams that prefer explicit version pinning over automatic sync.
+
+## How to use `prompt-pack` as a Git Submodule
+
+### Add the submodule to a target repo
+
+```bash
+# From the root of the target repo
+git submodule add https://github.com/franciscosuca/prompt-pack .prompt-pack
+git commit -m "chore: add prompt-pack as submodule"
+```
+
+This creates a `.prompt-pack/` directory with a pinned commit reference.
+
+### Copy (or symlink) the files you need
+
+Because GitHub Copilot reads `.github/copilot-instructions.md` directly, you still need to place files in the right location. After adding the submodule, copy what you need:
+
+```bash
+cp .prompt-pack/.github/copilot-instructions.md .github/copilot-instructions.md
+cp .prompt-pack/.github/agents/react.agent.md   .github/agents/react.agent.md
+```
+
+Or use a symlink (works locally, but GitHub Actions won't follow it):
+
+```bash
+ln -s ../.prompt-pack/.github/copilot-instructions.md .github/copilot-instructions.md
+```
+
+### Pull upstream changes
+
+When `prompt-pack` is updated and you want to adopt the new version:
+
+```bash
+git submodule update --remote .prompt-pack
+git add .prompt-pack
+git commit -m "chore: update prompt-pack to latest"
+```
+
+### Clone a repo that already has the submodule
+
+```bash
+git clone --recurse-submodules https://github.com/yourorg/yourrepo
+# or, after a plain clone:
+git submodule update --init
+```

@@ -2,8 +2,6 @@
 
 A curated starter pack for GitHub Copilot customization in VS Code, including reusable agents, focused skills, and MCP setup assets. It is designed to help teams standardize workflows quickly: copy the templates, adapt the prompts, and run with minimal setup.
 
-<!-- TODO: how to make this importable? -->
-
 ## Agents
 
 - [FastAPI Code Review](.github/agents/fastapi.agent.md): reviews FastAPI code with emphasis on security, correctness, async behavior, and architecture.
@@ -21,6 +19,8 @@ A curated starter pack for GitHub Copilot customization in VS Code, including re
 
 - [MCP Servers Config](.vscode/mcp.json): VS Code MCP server configuration template (currently includes `notion` and `stitch`, plus a token input).
 - [VSCode MCP Setup](.vscode/readme.md): quick extension-based instructions to add `DevTools` and `GitHub` MCP in VS Code.
+
+---
 
 **NOTE**:
 Drop any `.agent.md` or `SKILL.md` file into your own project to extend Copilot with project-specific workflows.
