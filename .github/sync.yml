@@ -3,7 +3,6 @@ franciscosuca/countdown:
   - .github/copilot-instructions.md
   - .github/agents/react.agent.md
   - .github/agents/playwright.agent.md
-  - .github/agents/uiV2.agent.md
   - .github/skills/release-check/SKILL.md
   - .github/skills/implementation-plan/SKILL.md
   - .github/skills/react-minor-changes/SKILL.md
@@ -14,5 +13,5 @@ franciscosuca/martech:
   - .github/agents/react.agent.md
   - .github/agents/playwright.agent.md
   - .github/skills/release-check/SKILL.md
-  - .github/skills/implementation-plan
+  - .github/skills/implementation-plan/SKILL.md
   - .github/workflows/reference/build-and-release.yml
