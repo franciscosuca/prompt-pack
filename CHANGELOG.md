@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/franciscosuca/prompt-pack/compare/v1.0.0...v1.0.1) (2026-05-26)
+
+### Bug Fixes
+
+* **improve formatting in issue templates and add markdownlint configuration:** fix: improve formatting in issue templates and add markdownlint configuration ([5d56815](https://github.com/franciscosuca/prompt-pack/commit/5d5681593c434cb30f7f5beb6d585e5b253703f9))
+* **remove outdated agent reference and correct implementation plan path in sync configuration:** fix: remove outdated agent reference and correct implementation plan path in sync configuration ([ddc1e77](https://github.com/franciscosuca/prompt-pack/commit/ddc1e77be7d2b56c3b43cca7ef266a439f18b3f8))
+
 ## 1.0.0 (2026-05-26)
 
 ### Features
