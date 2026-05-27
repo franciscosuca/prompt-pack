@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/franciscosuca/prompt-pack/compare/v1.0.1...v1.0.2) (2026-05-27)
+
+### Bug Fixes
+
+* **update sync configuration and remove obsolete build-and-release workflow:** fix: update sync configuration and remove obsolete build-and-release workflow ([9ca1f27](https://github.com/franciscosuca/prompt-pack/commit/9ca1f27abc1192f958f21bfdbff023bfa4c98ab4))
+
 ## [1.0.1](https://github.com/franciscosuca/prompt-pack/compare/v1.0.0...v1.0.1) (2026-05-26)
 
 ### Bug Fixes
