@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - '.github/copilot-instructions.md'
-      - '.github/workflows/**'
       - '.github/agents/**'
       - '.github/skills/**'
 
