@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/franciscosuca/prompt-pack/compare/v1.0.2...v1.0.3) (2026-05-28)
+
+### Bug Fixes
+
+* **add commit prefix to sync action configuration:** fix: add commit prefix to sync action configuration ([9b74acf](https://github.com/franciscosuca/prompt-pack/commit/9b74acf0b6f13198d41d1fbec4ea5cdc38c3197a))
+
 ## [1.0.2](https://github.com/franciscosuca/prompt-pack/compare/v1.0.1...v1.0.2) (2026-05-27)
 
 ### Bug Fixes
