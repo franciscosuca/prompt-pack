@@ -3,13 +3,17 @@ franciscosuca/countdown:
   - .github/copilot-instructions.md
   - .github/agents/react.agent.md
   - .github/agents/playwright.agent.md
+  - .github/agents/vitest.agent.md
   - .github/skills/release-check/SKILL.md
   - .github/skills/implementation-plan/SKILL.md
   - .github/skills/react-minor-changes/SKILL.md
+  - .github/skills/vitest-setup/SKILL.md
 
 franciscosuca/martech:
   - .github/copilot-instructions.md
   - .github/agents/react.agent.md
   - .github/agents/playwright.agent.md
+  - .github/agents/vitest.agent.md
   - .github/skills/release-check/SKILL.md
   - .github/skills/implementation-plan/SKILL.md
+  - .github/skills/vitest-setup/SKILL.md
