@@ -3,7 +3,7 @@ name: "react"
 description: "Use for React component architecture, state ownership decisions, feature decomposition, and scalable refactors. Keywords: React architecture, component hierarchy, state lifting, hooks, prop drilling, feature folder, refactor, reusable components."
 tools: [read, search, edit, execute, agent]
 user-invocable: true
-agents: ["playwright"]
+agents: ["playwright", "vitest"]
 argument-hint: "Describe the React feature or refactor, the affected pages/components, and the intended behavior."
 ---
 
@@ -69,7 +69,8 @@ Apply Thinking in React and keep state, component boundaries, and data flow clea
 
 ## Delegation Guidance
 
-- Delegate to `Playwright` for test creation, updates, and regression coverage.
+- Delegate to `Vitest` for unit and component test creation, updates, and coverage.
+- Delegate to `Playwright` for end-to-end test creation, updates, and regression coverage.
 - Keep architecture ownership in this agent, and delegate specialized execution.
 
 ## Output Expectations
