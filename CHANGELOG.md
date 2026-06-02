@@ -1,3 +1,13 @@
+## [1.1.0](https://github.com/franciscosuca/prompt-pack/compare/v1.0.4...v1.1.0) (2026-06-02)
+
+### Features
+
+* **add vitest agent and skill, update react agent and sync config:** feat: add vitest agent and skill, update react agent and sync config ([731358a](https://github.com/franciscosuca/prompt-pack/commit/731358a9037598c1f0d3292dde523f92ebb29f7b))
+
+### Bug Fixes
+
+* **Merge branch 'main' into copilot/create-agent-and-skills-test-suite:** fix: Merge branch 'main' into copilot/create-agent-and-skills-test-suite ([46bda3a](https://github.com/franciscosuca/prompt-pack/commit/46bda3a862aface9bfd94f3b59dca15ec434241a))
+
 ## [1.0.4](https://github.com/franciscosuca/prompt-pack/compare/v1.0.3...v1.0.4) (2026-06-02)
 
 ### Bug Fixes
