@@ -8,6 +8,11 @@ on:
       - '.github/copilot-instructions.md'
       - '.github/agents/**'
       - '.github/skills/**'
+      - '.markdownlint.yaml'
+
+concurrency:
+  group: file-sync
+  cancel-in-progress: true
 
 jobs:
   sync:

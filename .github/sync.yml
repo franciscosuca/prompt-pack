@@ -8,6 +8,7 @@ franciscosuca/countdown:
   - .github/skills/implementation-plan/SKILL.md
   - .github/skills/react-minor-changes/SKILL.md
   - .github/skills/vitest-setup/SKILL.md
+  - .markdownlint.yaml
 
 franciscosuca/martech:
   - .github/copilot-instructions.md
@@ -17,3 +18,4 @@ franciscosuca/martech:
   - .github/skills/release-check/SKILL.md
   - .github/skills/implementation-plan/SKILL.md
   - .github/skills/vitest-setup/SKILL.md
+  - .markdownlint.yaml

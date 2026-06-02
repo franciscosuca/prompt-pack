@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/franciscosuca/prompt-pack/compare/v1.0.3...v1.0.4) (2026-06-02)
+
+### Bug Fixes
+
+* **update sync configuration to include markdownlint.yaml and fix concurrency:** fix: update sync configuration to include markdownlint.yaml and fix concurrency ([ef0aa9a](https://github.com/franciscosuca/prompt-pack/commit/ef0aa9aa5fac469704ec9a1629f29cf93b787d57))
+
 ## [1.0.3](https://github.com/franciscosuca/prompt-pack/compare/v1.0.2...v1.0.3) (2026-05-28)
 
 ### Bug Fixes
