@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/franciscosuca/prompt-pack/compare/v1.2.0...v1.3.0) (2026-06-04)
+
+### Features
+
+* **add release-check hook and configuration for Claude Code:** feat: add release-check hook and configuration for Claude Code ([79643ba](https://github.com/franciscosuca/prompt-pack/commit/79643ba0cf73edfa13721ff439cb4b592dcd77ae))
+
 ## [1.2.0](https://github.com/franciscosuca/prompt-pack/compare/v1.1.0...v1.2.0) (2026-06-04)
 
 ### Features
