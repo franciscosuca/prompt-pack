@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/franciscosuca/prompt-pack/compare/v1.1.0...v1.2.0) (2026-06-04)
+
+### Features
+
+* **add release check command for claude:** feat: add release check command for claude ([3aac6d9](https://github.com/franciscosuca/prompt-pack/commit/3aac6d93f83baeae44f7d22aba98821823bb35d8))
+
 ## [1.1.0](https://github.com/franciscosuca/prompt-pack/compare/v1.0.4...v1.1.0) (2026-06-02)
 
 ### Features
