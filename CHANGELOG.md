@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/franciscosuca/prompt-pack/compare/v1.3.0...v1.4.0) (2026-06-05)
+
+### Features
+
+* **add general instructions for Claude usage and conventions:** feat: add general instructions for Claude usage and conventions ([195c871](https://github.com/franciscosuca/prompt-pack/commit/195c87120205c1f693e58b96a1363a701de3bfc6))
+
 ## [1.3.0](https://github.com/franciscosuca/prompt-pack/compare/v1.2.0...v1.3.0) (2026-06-04)
 
 ### Features
