@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/franciscosuca/prompt-pack/compare/v1.4.0...v1.5.0) (2026-06-06)
+
+### Features
+
+* **add FastAPI, Playwright, React, and Vitest agents with detailed guidelines for code reviews and testing:** feat: add FastAPI, Playwright, React, and Vitest agents with detailed guidelines for code reviews and testing ([408c148](https://github.com/franciscosuca/prompt-pack/commit/408c148a938d5dd2b4846195eb8e114495c37620))
+
 ## [1.4.0](https://github.com/franciscosuca/prompt-pack/compare/v1.3.0...v1.4.0) (2026-06-05)
 
 ### Features
