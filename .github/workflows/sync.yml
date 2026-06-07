@@ -9,6 +9,7 @@ on:
       - '.github/agents/**'
       - '.github/skills/**'
       - '.markdownlint.yaml'
+      - '.claude/agents/**'
 
 concurrency:
   group: file-sync
