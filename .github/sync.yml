@@ -9,6 +9,9 @@ franciscosuca/countdown:
   - .github/skills/react-minor-changes/SKILL.md
   - .github/skills/vitest-setup/SKILL.md
   - .markdownlint.yaml
+  - .claude/agents/react.md
+  - .claude/agents/playwright.md
+  - .claude/agents/vitest.md
 
 franciscosuca/martech:
   - .github/copilot-instructions.md
@@ -19,3 +22,6 @@ franciscosuca/martech:
   - .github/skills/implementation-plan/SKILL.md
   - .github/skills/vitest-setup/SKILL.md
   - .markdownlint.yaml
+  - .claude/agents/react.md
+  - .claude/agents/playwright.md
+  - .claude/agents/vitest.md
