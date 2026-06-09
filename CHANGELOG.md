@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/franciscosuca/prompt-pack/compare/v1.5.0...v1.6.0) (2026-06-09)
+
+### Features
+
+* **add initial README for project resource indexing:** feat: add initial README for project resource indexing ([2a462fc](https://github.com/franciscosuca/prompt-pack/commit/2a462fc21372c175788a574b4e2e7a4c6adcbef7))
+
 ## [1.5.0](https://github.com/franciscosuca/prompt-pack/compare/v1.4.0...v1.5.0) (2026-06-06)
 
 ### Features
