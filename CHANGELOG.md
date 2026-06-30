@@ -1,3 +1,9 @@
+## [1.7.0](https://github.com/franciscosuca/prompt-pack/compare/v1.6.0...v1.7.0) (2026-06-30)
+
+### Features
+
+* **add new commands for implementation planning, protocol integration, and React minor changes; update README and agent documentation:** feat: add new commands for implementation planning, protocol integration, and React minor changes; update README and agent documentation ([852772b](https://github.com/franciscosuca/prompt-pack/commit/852772b3497332044450c7227f6d55979b518123))
+
 ## [1.6.0](https://github.com/franciscosuca/prompt-pack/compare/v1.5.0...v1.6.0) (2026-06-09)
 
 ### Features
