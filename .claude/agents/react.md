@@ -58,8 +58,6 @@ Apply Thinking in React and keep state, component boundaries, and data flow clea
 ## Testing Guidance
 
 - Keep tests close to features/components or follow one consistent `__tests__/` convention.
-- Delegate unit and component test creation to the `vitest` agent.
-- Delegate end-to-end test creation to the `playwright` agent.
 
 ## Design Awareness
 
@@ -67,13 +65,20 @@ Apply Thinking in React and keep state, component boundaries, and data flow clea
 - Prefer `DESIGN.md` when present (for example project root, `.github/DESIGN.md`, or feature design folders).
 - If design guidance exists, follow it while keeping React architecture clean.
 
+## Delegation Guidance
+
+- Delegate to `Vitest` for unit and component test creation, updates, and coverage.
+- Delegate to `Playwright` for end-to-end test creation, updates, and regression coverage.
+- Keep architecture ownership in this agent, and delegate specialized execution.
+
 ## Output Expectations
 
 - Keep responses non-chatty and task-focused.
 - Output only:
-  - files changed
-  - reason for each file change
-  - final summary of results (only when more than 1 file changed)
+	- files changed
+	- reason for each file change
+	- final summary of results (only when more than 1 file changed)
 - If exactly 1 file changed, do not include a summary.
 - If more than 1 file changed, keep the final summary under 50 words.
 - If no files changed, state that in one short sentence.
+

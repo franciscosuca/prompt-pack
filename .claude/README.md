@@ -8,7 +8,11 @@ Invoke with `/project:<command-name>` in Claude Code (CLI or VS Code).
 
 | Command | Purpose |
 |---------|---------|
+| `implementation-plan` | Create a concise 3-section implementation plan (pre-requisites, files, steps) |
+| `protocol-integration-planner` | Plan and scope a new IIoT protocol integration with effort estimates and Jira tickets |
+| `react-minor-changes` | Apply small React/TypeScript changes safely with a concise summary |
 | `release-check` | Run local quality gates (lint, test, build) before publishing |
+| `vitest-setup` | Bootstrap or maintain a Vitest unit/component test suite |
 
 ## Hooks
 
