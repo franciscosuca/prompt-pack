@@ -1,3 +1,9 @@
+## [1.8.0](https://github.com/franciscosuca/prompt-pack/compare/v1.7.0...v1.8.0) (2026-07-01)
+
+### Features
+
+* **add agents for converting React applications to React Native and iOS:** feat: add agents for converting React applications to React Native and iOS ([fbc0e73](https://github.com/franciscosuca/prompt-pack/commit/fbc0e73e7dc12abbdb35a0122162720afbb1153a))
+
 ## [1.7.0](https://github.com/franciscosuca/prompt-pack/compare/v1.6.0...v1.7.0) (2026-06-30)
 
 ### Features
