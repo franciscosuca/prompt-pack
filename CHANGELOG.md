@@ -1,3 +1,9 @@
+## [1.9.0](https://github.com/franciscosuca/prompt-pack/compare/v1.8.0...v1.9.0) (2026-07-08)
+
+### Features
+
+* **introduce test-oracle and blind-implementer agents for improved test-driven development; update agent documentation and README:** feat: introduce test-oracle and blind-implementer agents for improved test-driven development; update agent documentation and README ([64013a6](https://github.com/franciscosuca/prompt-pack/commit/64013a67df65b9f66b786a73ee961283bd97932b))
+
 ## [1.8.0](https://github.com/franciscosuca/prompt-pack/compare/v1.7.0...v1.8.0) (2026-07-01)
 
 ### Features
