@@ -3,7 +3,7 @@ name: "react-to-ios"
 description: "Use when converting a React web application into a native iOS app using Swift and Xcode. Analyzes React component trees, state management, routing, and API calls, then produces an equivalent Swift/SwiftUI project structure. Keywords: react to ios, swift, xcode, native iphone, conversion, migration, swiftui, uikit."
 tools: [read, search, edit, execute, agent]
 user-invocable: true
-agents: ["react"]
+agents: ["react", "test-oracle", "blind-implementer"]
 argument-hint: "Point to the React project root or describe the app you want converted to native iOS."
 ---
 
@@ -145,4 +145,6 @@ When converting, proactively add iOS-native capabilities where appropriate:
 ## Delegation Guidance
 
 - Delegate to `react` agent for clarifying React architecture patterns you encounter.
+- Delegate to `test-oracle` to define acceptance tests before coding starts.
+- Delegate to `blind-implementer` to code from requirements without seeing tests.
 - Keep all Swift/Xcode implementation within this agent.

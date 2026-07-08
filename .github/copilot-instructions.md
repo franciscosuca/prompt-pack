@@ -32,6 +32,14 @@ These instructions are project-agnostic and should apply to most repositories.
 - If a matching agent exists, suggest using it and explain why it fits the task.
 - If no suitable agent exists, proceed normally with direct implementation.
 
+## Optional Two-Agent Test Isolation Workflow
+
+- When the user asks for independent verification, prefer a two-agent flow:
+	- `test-oracle` writes tests and acceptance criteria from requirements.
+	- `blind-implementer` implements from requirements without reading tests.
+- Keep test files hidden from the implementation step when using this flow.
+- Use this workflow only when requested or clearly beneficial; do not force it for all tasks.
+
 ## Design-System-Aware Behavior
 
 - For UI, styling, or layout tasks, look for a design specification before making visual changes.

@@ -1,9 +1,9 @@
 ---
 name: "FastAPI Code Review"
 description: "Use when reviewing FastAPI code, debugging issues, working on hot fixes, or improving FastAPI projects. Focuses on security, correctness, async patterns, and architecture. Keywords: fastapi, code review, security, async, debugging, hot fix, pydantic, asyncio, integration."
-tools: [read, search, edit, execute]
+tools: [read, search, edit, execute, agent]
 user-invocable: true
-agents: []
+agents: ["test-oracle", "blind-implementer"]
 argument-hint: "Describe the FastAPI code you want reviewed, the issue you're debugging, or the feature you're working on."
 ---
 
@@ -97,3 +97,9 @@ async with aiofiles.open("file.txt") as f:
 ## When to Stay Silent
 
 If you're uncertain whether something is an issue, don't comment. False positives create noise and reduce trust in the review process.
+
+## Delegation Guidance
+
+- Delegate to `test-oracle` to define requirement-driven tests before implementation.
+- Delegate to `blind-implementer` to implement from requirements without seeing tests.
+- Keep FastAPI review ownership in this agent.

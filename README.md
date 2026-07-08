@@ -5,8 +5,11 @@ A curated starter pack for GitHub Copilot customization in VS Code, including re
 ## Agents
 
 - [FastAPI Code Review](.github/agents/fastapi.agent.md): reviews FastAPI code with emphasis on security, correctness, async behavior, and architecture.
-- [playwrigh](.github/agents/playwright.agent.md): bootstraps and maintains Playwright E2E tests aligned with product changes.
+- [playwright](.github/agents/playwright.agent.md): bootstraps and maintains Playwright E2E tests aligned with product changes.
 - [react.agent](.github/agents/react.agent.md): supports React architecture decisions, state ownership, and scalable refactors.
+- [vitest](.github/agents/vitest.agent.md): bootstraps and maintains Vitest unit/component tests aligned with product changes.
+- [test-oracle](.github/agents/test-oracle.agent.md): writes requirement-driven tests and acceptance gates before implementation.
+- [blind-implementer](.github/agents/blind-implementer.agent.md): implements from requirements without reading tests.
 
 ## Skills
 
