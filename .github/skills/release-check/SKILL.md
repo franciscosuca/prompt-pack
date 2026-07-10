@@ -1,29 +1,29 @@
 ---
 name: release-check
 description: Single release validation skill (lint, test/build, cloud semantic-release run).
-argument-hint: Run release checks before publishing.
-user-invocable: true
+argument-hint: "Run release checks before publishing"
+user-invokable: true
 ---
 
 # Release Check
 
-Run one pre-release flow that validates app quality locally and release behavior in pipeline.
+Run one pre-release flow that validates app quality locally and release behavior in Azure DevOps.
 
 ## Commands (repo root)
 1. Install clean dependencies:
    `npm ci`
 2. Type/lint check:
    `npm run lint`
-3. Run tests if present:
-   `npm test --if-present`
+3. Run Vitest test suite:
+   `npm test`
 4. Build production bundle:
    `npm run build`
 5. Validate semantic-release in cloud (manual run):
-   Queue `pipelines/Semantic_Release.yml` in the pipeline of your selection
+   Queue `pipelines/Onboarding_Wizard_Semantic_Release.yml` in Azure DevOps
 
 ## Pass criteria
 - Local commands exit with code `0`.
-- Pipeline step `Run Semantic Release` succeeds.
+- Azure pipeline step `Run Semantic Release` succeeds.
 
 ## If it fails
 - Report which command failed and include the error output.
@@ -35,7 +35,7 @@ After running all checks, respond with a checklist using ✅ for pass and ❌ fo
 **All passing example:**
 ✅ Install clean dependencies
 ✅ Type/lint check
-✅ Tests
+✅ Vitest test suite
 ✅ Build production bundle
 ✅ Cloud semantic-release pipeline run
 
