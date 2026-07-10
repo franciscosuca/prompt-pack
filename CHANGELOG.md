@@ -1,3 +1,9 @@
+## [1.9.1](https://github.com/franciscosuca/prompt-pack/compare/v1.9.0...v1.9.1) (2026-07-10)
+
+### Bug Fixes
+
+* **update release-check skill documentation for clarity and accuracy:** fix: update release-check skill documentation for clarity and accuracy ([0fc3a4d](https://github.com/franciscosuca/prompt-pack/commit/0fc3a4d7b6a6d27f332723762b7fc2386e51eaf7))
+
 ## [1.9.0](https://github.com/franciscosuca/prompt-pack/compare/v1.8.0...v1.9.0) (2026-07-08)
 
 ### Features
