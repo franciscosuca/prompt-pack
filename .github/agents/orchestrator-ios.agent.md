@@ -1,5 +1,5 @@
 ---
-name: "react-to-ios"
+name: "orchestrator-ios"
 description: "Use when converting a React web application into a native iOS app using Swift and Xcode. Analyzes React component trees, state management, routing, and API calls, then produces an equivalent Swift/SwiftUI project structure. Keywords: react to ios, swift, xcode, native iphone, conversion, migration, swiftui, uikit."
 tools: [read, search, edit, execute, agent]
 user-invocable: true

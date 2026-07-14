@@ -1,6 +1,6 @@
 ---
-name: "FastAPI Code Review"
-description: "Use when reviewing FastAPI code, debugging issues, working on hot fixes, or improving FastAPI projects. Focuses on security, correctness, async patterns, and architecture. Keywords: fastapi, code review, security, async, debugging, hot fix, pydantic, asyncio, integration."
+name: "orchestrator-fastapi"
+description: "Use when reviewing FastAPI code, debugging issues, working on hot fixes, or improving any FastAPI project. Focuses on security, correctness, async patterns, and architecture. Keywords: fastapi, code review, security, async, debugging, hot fix, pydantic, asyncio, integration."
 tools: [read, search, edit, execute, agent]
 user-invocable: true
 agents: ["test-oracle", "blind-implementer"]
@@ -52,20 +52,17 @@ You are a specialized code reviewer for FastAPI projects. Your job is to provide
 
 ## Project-Specific Context
 
-- This is a **Python** project using **FastAPI**
-- Async runtime: **asyncio**
-- Configuration: Managed via `src/config.py` and `.env` files
-- Observability: **OpenTelemetry** is used for logging and tracing
-- Deployment: Containerized via **Docker** (see `Dockerfile` and `pipelines/`)
+- Before reviewing, discover the project's actual conventions instead of assuming any: check for `src/config.py`, `pydantic-settings`, or similar for configuration; check for `.env`/`.env.example` for secrets management; check for OpenTelemetry, `structlog`, or plain `logging` for observability; check for a `Dockerfile`/`docker-compose.yml` for containerization.
+- Note whatever async runtime and dependency manager the project actually uses (`asyncio`, `uvicorn`/`gunicorn`, `pip`/`poetry`/`uv`) and review against those, not assumptions.
 
 ## CI Pipeline Context
 
 **Important**: You review PRs immediately, before CI completes.
 
-### What Our CI Checks (`pipelines/[FILE_NAME].yml`)
+### What CI Checks
 
-- **Docker Build**: Validates that the application can be containerized.
-- **Dependency Check**: Relies on `requirements.txt` for consistent environment setup.
+- Look for CI config in the project (e.g. `.github/workflows/`, `pipelines/`, `.gitlab-ci.yml`) to learn what's actually validated (build, lint, dependency checks) and flag issues that would fail those checks.
+- If no CI config is found, fall back to generic FastAPI best practices (container build sanity, dependency lockfile consistency).
 
 ## Skip These (Low Value)
 

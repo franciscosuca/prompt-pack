@@ -1,4 +1,7 @@
 {
+  "permissions": {
+    "deny": ["Agent(orchestrator-fastapi)", "Agent(playwright)", "Agent(react)", "Agent(vitest)"]
+  }, // This is a temporary measure to prevent the use of certain agents until they are fully supported.
   "hooks": {
     "Stop": [
       {

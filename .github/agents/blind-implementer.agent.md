@@ -1,9 +1,9 @@
 ---
 name: "blind-implementer"
 description: "Use to implement features from requirements without reading tests. Keywords: blind implementation, behavior-first coding, test-isolated implementation."
-tools: [read, search, edit, execute]
+tools: [read, search, edit, execute, agent]
 user-invocable: true
-agents: []
+agents: ["react", "opcua Agent"]
 argument-hint: "Provide only requirement text, constraints, and acceptance checklist. Do not include test content."
 ---
 
@@ -32,6 +32,12 @@ Build correct, maintainable behavior from requirements and constraints only.
 - You may run test commands, but do not open test files.
 - On failure, infer from error output and fix implementation only.
 - If failures are ambiguous without reading tests, request a non-test hint from the user.
+
+## Delegation Guidance
+
+- Delegate to `react` when a change requires component hierarchy, state-ownership, or architecture decisions beyond straightforward requirement fulfillment.
+- Delegate to `opcua Agent` when the requirement involves OPCUA direct-method integration (e.g., CheckDataPoints node-status, seal-module-opcua-client payloads).
+- Isolation rules still apply during delegation: never forward test file contents to a sub-agent, and do not let a sub-agent open test files on your behalf.
 
 ## Output Format
 

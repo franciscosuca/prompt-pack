@@ -1,9 +1,9 @@
 ---
-name: "react-to-react-native"
+name: "orchestrator-react-native"
 description: "Use when converting a React web application into a React Native app targeting both iOS and Android. Analyzes existing React components, routing, state, styling, and API layers, then produces an equivalent React Native / Expo project. Keywords: react native, expo, mobile, android, ios, conversion, migration, cross-platform."
 tools: [read, search, edit, execute, agent]
 user-invocable: true
-agents: ["react"]
+agents: ["react", "test-oracle", "blind-implementer"]
 argument-hint: "Point to the React project root or describe the app you want converted to React Native."
 ---
 
