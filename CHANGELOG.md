@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/franciscosuca/prompt-pack/compare/v1.9.1...v1.10.0) (2026-07-14)
+
+### Features
+
+* **add skill to replace semantic release placeholders in .releaserc.json files:** feat: add skill to replace semantic release placeholders in .releaserc.json files ([efbef48](https://github.com/franciscosuca/prompt-pack/commit/efbef48cba577d8c7d0043da0e4f1076a263c1c5))
+* **Update agent configurations and documentation:** feat: Update agent configurations and documentation ([9eb3ed7](https://github.com/franciscosuca/prompt-pack/commit/9eb3ed78e9afd53e002ff88658b531bc6256d61b))
+
 ## [1.9.1](https://github.com/franciscosuca/prompt-pack/compare/v1.9.0...v1.9.1) (2026-07-10)
 
 ### Bug Fixes
