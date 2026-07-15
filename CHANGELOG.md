@@ -1,3 +1,9 @@
+## [1.10.1](https://github.com/franciscosuca/prompt-pack/compare/v1.10.0...v1.10.1) (2026-07-15)
+
+### Bug Fixes
+
+* **enhance the claude agents for blind implementation, orchestrator-react, test oracle, and update playwright and vitest instructions:** fix: enhance the claude agents for blind implementation, orchestrator-react, test oracle, and update playwright and vitest instructions ([b8b42e2](https://github.com/franciscosuca/prompt-pack/commit/b8b42e26a1ded482eb1b1760b56d6220675a5163))
+
 ## [1.10.0](https://github.com/franciscosuca/prompt-pack/compare/v1.9.1...v1.10.0) (2026-07-14)
 
 ### Features
