@@ -1,3 +1,9 @@
+## [1.11.0](https://github.com/franciscosuca/prompt-pack/compare/v1.10.1...v1.11.0) (2026-07-18)
+
+### Features
+
+* **update agent references in sync.yml for countdown and martech:** feat: update agent references in sync.yml for countdown and martech ([f233cde](https://github.com/franciscosuca/prompt-pack/commit/f233cde9af58312acf89811d76db5a03c29122b4))
+
 ## [1.10.1](https://github.com/franciscosuca/prompt-pack/compare/v1.10.0...v1.10.1) (2026-07-15)
 
 ### Bug Fixes
