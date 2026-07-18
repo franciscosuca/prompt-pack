@@ -1,27 +1,20 @@
 
 franciscosuca/countdown:
   - .github/copilot-instructions.md
-  - .github/agents/react.agent.md
+  - .github/agents/blind-implementer.agent.md
+  - .github/agents/orchestrator-react.agent.md
   - .github/agents/playwright.agent.md
+  - .github/agents/react.agent.md
+  - .github/agents/test-oracle.agent.md
   - .github/agents/vitest.agent.md
-  - .github/skills/release-check/SKILL.md
-  - .github/skills/implementation-plan/SKILL.md
-  - .github/skills/react-minor-changes/SKILL.md
-  - .github/skills/vitest-setup/SKILL.md
   - .markdownlint.yaml
-  - .claude/agents/react.md
-  - .claude/agents/playwright.md
-  - .claude/agents/vitest.md
 
 franciscosuca/martech:
   - .github/copilot-instructions.md
-  - .github/agents/react.agent.md
+  - .github/agents/blind-implementer.agent.md
+  - .github/agents/orchestrator-react.agent.md
   - .github/agents/playwright.agent.md
+  - .github/agents/react.agent.md
+  - .github/agents/test-oracle.agent.md
   - .github/agents/vitest.agent.md
-  - .github/skills/release-check/SKILL.md
-  - .github/skills/implementation-plan/SKILL.md
-  - .github/skills/vitest-setup/SKILL.md
   - .markdownlint.yaml
-  - .claude/agents/react.md
-  - .claude/agents/playwright.md
-  - .claude/agents/vitest.md
