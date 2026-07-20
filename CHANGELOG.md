@@ -1,3 +1,9 @@
+## [1.12.0](https://github.com/franciscosuca/prompt-pack/compare/v1.11.0...v1.12.0) (2026-07-20)
+
+### Features
+
+* **add benchmark files for rate limiter testing, including prompts, rubric, and scorecard:** feat: add benchmark files for rate limiter testing, including prompts, rubric, and scorecard ([e7df64e](https://github.com/franciscosuca/prompt-pack/commit/e7df64e77d0c62022d37fc2a3eeaadbc1cefad75))
+
 ## [1.11.0](https://github.com/franciscosuca/prompt-pack/compare/v1.10.1...v1.11.0) (2026-07-18)
 
 ### Features
