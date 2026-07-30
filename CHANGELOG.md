@@ -1,3 +1,9 @@
+## [1.13.0](https://github.com/franciscosuca/prompt-pack/compare/v1.12.0...v1.13.0) (2026-07-30)
+
+### Features
+
+* **update user-invocable status for blind-implementer and test-oracle agents; add docker, express, and python agents:** feat: update user-invocable status for blind-implementer and test-oracle agents; add docker, express, and python agents ([4148ed8](https://github.com/franciscosuca/prompt-pack/commit/4148ed8b2de19b87672e14dc8b7dd2c58f3aea0b))
+
 ## [1.12.0](https://github.com/franciscosuca/prompt-pack/compare/v1.11.0...v1.12.0) (2026-07-20)
 
 ### Features
