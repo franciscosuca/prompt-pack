@@ -1,3 +1,9 @@
+## [1.14.0](https://github.com/franciscosuca/prompt-pack/compare/v1.13.0...v1.14.0) (2026-08-27)
+
+### Features
+
+* **enhance response style guidelines for coding tasks and user interactions:** feat: enhance response style guidelines for coding tasks and user interactions ([880f462](https://github.com/franciscosuca/prompt-pack/commit/880f46265fae6f58abfe9f4651f749ea55b4fadf))
+
 ## [1.13.0](https://github.com/franciscosuca/prompt-pack/compare/v1.12.0...v1.13.0) (2026-07-30)
 
 ### Features
